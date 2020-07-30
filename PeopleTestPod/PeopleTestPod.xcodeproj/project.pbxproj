@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AD7A471A24D26A5C004763D7 /* PeopleTestPod.h in Headers */ = {isa = PBXBuildFile; fileRef = AD7A471824D26A5C004763D7 /* PeopleTestPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD7A472224D26BCB004763D7 /* Hello.h in Headers */ = {isa = PBXBuildFile; fileRef = AD7A472024D26BCB004763D7 /* Hello.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD7A472324D26BCB004763D7 /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7A472124D26BCB004763D7 /* Hello.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD7A471524D26A5C004763D7 /* PeopleTestPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PeopleTestPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7A471824D26A5C004763D7 /* PeopleTestPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeopleTestPod.h; sourceTree = "<group>"; };
 		AD7A471924D26A5C004763D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7A472024D26BCB004763D7 /* Hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		AD7A472124D26BCB004763D7 /* Hello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				AD7A471824D26A5C004763D7 /* PeopleTestPod.h */,
 				AD7A471924D26A5C004763D7 /* Info.plist */,
+				AD7A472024D26BCB004763D7 /* Hello.h */,
+				AD7A472124D26BCB004763D7 /* Hello.m */,
 			);
 			path = PeopleTestPod;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7A471A24D26A5C004763D7 /* PeopleTestPod.h in Headers */,
+				AD7A472224D26BCB004763D7 /* Hello.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7A472324D26BCB004763D7 /* Hello.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
