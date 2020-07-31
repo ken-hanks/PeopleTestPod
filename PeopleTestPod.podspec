@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PeopleTestPod"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "This is a test project of pod."
 
   # This description is used to generate tags and improve search results.
